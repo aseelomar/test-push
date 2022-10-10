@@ -47,5 +47,6 @@ Route::get('/album-details/{id}', 'HomeController@showAlbumDetails')->name('site
 Route::post('/peopleContact', 'HomeController@peopleContact')->name('site.peopleContact');
 Route::get('/jobs', 'HomeController@jobs')->name('site.jobs');
 Route::get('/jobDetails/{id}/{test}', 'HomeController@jobDetails')->name('site.jobDetails');
+Route::get('/ffffff/{id}/{test}', 'HomeController@jobDetails')->name('site.jobDetails');
 
 

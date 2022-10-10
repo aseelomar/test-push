@@ -46,6 +46,6 @@ Route::get('/logout', 'HomeController@getService')->name('logout');
 Route::get('/album-details/{id}', 'HomeController@showAlbumDetails')->name('site.showAlbumDetails');
 Route::post('/peopleContact', 'HomeController@peopleContact')->name('site.peopleContact');
 Route::get('/jobs', 'HomeController@jobs')->name('site.jobs');
-Route::get('/jobDetails/{id}', 'HomeController@jobDetails')->name('site.jobDetails');
+Route::get('/jobDetails/{id}/{test}', 'HomeController@jobDetails')->name('site.jobDetails');
 
 
